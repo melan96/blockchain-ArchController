@@ -9,4 +9,5 @@ package NodeDef.pkg;
 
 
 public interface IBlockStructureDefinition {
+
 }
