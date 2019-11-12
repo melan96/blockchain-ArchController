@@ -41,4 +41,16 @@ public class TransactionClass {
         this.transactionID = UUID.randomUUID();
         logger.log(Level.INFO, "TransactionID Created : "+transactionID);
     }
+
+    public long getTransactionDate() {
+        return transactionDate;
+    }
+
+    public UUID getTransactionID() {
+        return transactionID;
+    }
+
+    public String getTransactionName() {
+        return transactionName;
+    }
 }
